@@ -16,4 +16,9 @@ public class JokeServiceImpl implements JokeService {
     public String getJoke() {
         return chuckNorrisQuotes.getRandomQuote();
     }
+
+    @Override
+    public String fakeMethod() {
+        return null;
+    }
 }
